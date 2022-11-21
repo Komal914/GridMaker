@@ -1,4 +1,4 @@
-# Gridmaker  
+# 👾 Gridmaker 👾 
 
 Gridmaker is a fun site to create art. Originally, this was a group project which I added personal touches to.
 
