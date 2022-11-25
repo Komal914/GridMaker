@@ -6,8 +6,7 @@ Gridmaker is a fun site to create art. Originally, this was a group project whic
 
 👷🏻‍♀️ 🚧 This projec is currently under construction 🚧 👷🏻‍♀️
 
-
-<img width="651" alt="Screen Shot 2022-11-22 at 12 35 10 PM" src="https://user-images.githubusercontent.com/44416323/203382728-fb0d23d6-5bbe-4731-bb09-7cdf74355ccc.png">
+<img width="622" alt="Screen Shot 2022-11-24 at 8 09 53 PM" src="https://user-images.githubusercontent.com/44416323/203881011-4e0bdaa4-f24b-419d-9e53-0b5a8e16e548.png">
 
 # 👩🏻‍ Contributors 
 <a href = "https://github.com/komal914/GridMaker/graphs/contributors">
