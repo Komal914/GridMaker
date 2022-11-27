@@ -4,32 +4,52 @@
     <title>Grid</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <nav class="nav">
-      <button class="button-19" role="button" onclick="addR()">Add Row</button>
-      <button class="button-19" role="button" onclick="addC()">Add Col</button>
-      <button class="button-19" role="button" onclick="removeR()">
-        Remove Row
-      </button>
-      <button class="button-19" role="button" onclick="removeC()">
-        Remove Col
-      </button>
-      <button class="button-19" role="button" onclick="fillU()">
-        Fill All Uncolored
-      </button>
-      <button class="button-19" role="button" onclick="fill()">Fill All</button>
-      <button class="button-19" role="button" onclick="clearAll()">
-        Clear
-      </button>
-    </nav>
-    <select onchange="selected()" id="selectedID">
-      <option value="SELECT">SELECT</option>
-      <option value="Red">Red</option>
-      <option value="Blue">Blue</option>
-      <option value="Green">Green</option>
-      <option value="Yellow">Yellow</option>
-    </select>
-    <table id="grid"></table>
-    <script src="script.js"></script>
-  </body>
+  <body class="area"></body>
+  <div class="circles">
+    
+      <nav class="nav">
+        <button class="button-19" role="button" onclick="addR()">
+          Add Row
+        </button>
+        <button class="button-19" role="button" onclick="addC()">
+          Add Col
+        </button>
+        <button class="button-19" role="button" onclick="removeR()">
+          Remove Row
+        </button>
+        <button class="button-19" role="button" onclick="removeC()">
+          Remove Col
+        </button>
+        <button class="button-19" role="button" onclick="fillU()">
+          Fill All Uncolored
+        </button>
+        <button class="button-19" role="button" onclick="fill()">
+          Fill All
+        </button>
+        <button class="button-19" role="button" onclick="clearAll()">
+          Clear
+        </button>
+       
+        <input type="color" id="selectedID" onchange="selected()" value="#ff0000" style="width:85%;">
+          
+
+        
+      </nav>
+      <!-- ANIMATIONS -->
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+
+      <table id="grid"></table>
+      <script src="script.js"></script>
+    </div>
+    </body>
+ 
 </html>

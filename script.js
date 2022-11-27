@@ -27,10 +27,21 @@ function addR() {
 
 //Add a column
 function addC() {
+  window.onload = () => {
+    //write your code here
+  };
   numCols++; // Increment number of columns
   for (i = 0; i < numRows; i++) {
-    let col = document.getElementsByTagName("tr")[i]; // loop over every row
-    let colCell = document.createElement("td"); // Create a new column element
+    const col = document.getElementsByTagName("tr")[i]; // loop over every row
+    const colCell = document.createElement("td"); // Create a new column element
+
+    colCell.addEventListener("click", function () {
+      // Add click event listener for newly created column cell
+      colCell.style.backgroundColor = colorSelected; // Change individual column cell color to current selected color when clicked
+    });
+
+    col.appendChild(colCell); // Append the new column cell to the last col element
+    //animation start
     colCell.addEventListener("mouseleave", function () {
       colCell.style.transform = `translate3d(-5px, 0, 0)`;
     });
@@ -38,12 +49,7 @@ function addC() {
     colCell.addEventListener("mouseenter", function () {
       colCell.style.transform = `translate3d(5px, 0, 0)`;
     });
-
-    colCell.addEventListener("click", function () {
-      // Add click event listener for newly created column cell
-      colCell.style.backgroundColor = colorSelected; // Change individual column cell color to current selected color when clicked
-    });
-    col.appendChild(colCell); // Append the new column cell to the last col element
+    //animation end
   }
   gridTable.appendChild(col); // Append the row with the new column cell to the table.
 }
@@ -57,7 +63,7 @@ function removeR() {
 //Remove a column
 function removeC() {
   numCols--; //decrement numCols
-  for (j = 0; j < numRows; j++) {
+  for (let j = 0; j < numRows; j++) {
     let row = document.getElementsByTagName("tr"); //gets row
     row[j].deleteCell(0); //access row and deletes the entire column
   }
