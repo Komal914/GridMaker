@@ -1,7 +1,7 @@
 # 👾 Gridmaker 👾 
 
 
-Gridmaker is a fun site to create art. Originally, this was a group project which I added personal touches to.
+Gridmaker is a fun site to create art. Originally, this was a group project which I added my personal touches to.
 [Link to site](https://komal914.github.io/GridMaker/index.html)
 
 👷🏻‍♀️ 🚧 This projec is currently under construction 🚧 👷🏻‍♀️
