@@ -19,6 +19,10 @@ Gridmaker is a fun site to create art 🎨. Let your inner child free and have f
 - Clear : Clears the entire grid to be white 
 - Input Colors : Allows the user to choose any color 
 
+# Future Improvements 
+- drag boxes to fill in colors 
+- Templates for art work 
+
 # 👩🏻‍ Contributors 
 ### This was originally a group project which I later added my personal touches to.
 <a href = "https://github.com/komal914/GridMaker/graphs/contributors">
