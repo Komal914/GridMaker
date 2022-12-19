@@ -20,7 +20,7 @@ Gridmaker is a fun site to create art 🎨. Let your inner child free and have f
 - Input Colors : Allows the user to choose any color 
 
 # Future Improvements 
-- drag boxes to fill in colors 
+- Allow more interactivity such as drag boxes to fill in colors 
 - Templates for art work 
 
 # 👩🏻‍ Contributors 
