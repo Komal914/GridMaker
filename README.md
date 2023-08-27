@@ -5,8 +5,8 @@ Gridmaker is a fun site to create art 🎨. Let your inner child free and have f
 
 [Link to site](https://komal914.github.io/GridMaker/index.html)
 
+<img width="1440" alt="Screenshot 2023-08-27 at 1 28 45 AM" src="https://github.com/Komal914/GridMaker/assets/44416323/e266f7f6-e611-4012-8c49-0f6b430f9f4c">
 
-<img width="1440" alt="Screen Shot 2022-11-27 at 6 21 11 PM" src="https://user-images.githubusercontent.com/44416323/204165185-502add1b-a060-4f0f-948b-98926ab945ad.png">
 
 
 # Functions 
